@@ -1,0 +1,12 @@
+{
+  "name": "Koydo — CLAT UG Prep",
+  "short_name": "CLAT UG",
+  "description": "Law admissions prep powered by Koydo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#9333EA",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

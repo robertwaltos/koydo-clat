@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #9333EA;
+  --accent-dark: #7E22CE;
+  --bg: #ffffff;
+  --fg: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0a0a;
+    --fg: #ededed;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, sans-serif;
+}
